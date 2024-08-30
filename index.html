@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Watches - Tu Empresa de Relojes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado con el menú de navegación -->
+    <header>
+        <div class="logo">Luxury Watches</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner con animaciones -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Encuentra el Reloj Perfecto</h1>
+            <p>Descubre nuestra colección exclusiva de relojes de lujo.</p>
+            <a href="#products" class="btn-primary">Ver Colección</a>
+        </div>
+    </section>
+
+    <!-- Galería de productos -->
+    <section id="products" class="products">
+        <h2>Nuestros Productos</h2>
+        <div class="product-gallery">
+            <div class="product-card">
+                <img src="images/watch1.jpg" alt="Reloj Clásico">
+                <h3>Reloj Clásico</h3>
+                <p>Elegancia atemporal para cualquier ocasión.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/watch2.jpg" alt="Reloj Deportivo">
+                <h3>Reloj Deportivo</h3>
+                <p>Perfecto para el amante del deporte y la aventura.</p>
+            </div>
+            <div class="product-card">
+                <img src="images/watch3.jpg" alt="Reloj de Lujo">
+                <h3>Reloj de Lujo</h3>
+                <p>El epítome del lujo y la sofisticación.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="about" class="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>Luxury Watches es una empresa dedicada a ofrecer relojes de la más alta calidad, combinando tradición e innovación para crear piezas únicas que perduren en el tiempo. 
+            Ser la marca de relojes de lujo genericos más innovadora y respetada a nivel mundial,
+             reconocida por nuestra artesanía impecable, diseño atemporal y compromiso con la excelencia es nuestra vision. 
+             Aspiramos a transformar cada segundo en una experiencia memorable, combinando tradición y modernidad para satisfacer a los entusiastas del tiempo en todo el mundo.
+        </p>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Luxury Watches. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
